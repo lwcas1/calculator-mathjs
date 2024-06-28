@@ -27,6 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-radius: 10px;
     box-shadow: 1px 10px 18px #131313;
 }
 
