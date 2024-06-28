@@ -70,13 +70,13 @@ button {
     color: #b8b8b8;
 }
 
-.operatorButton {
+.operatorButton, #backspaceButton {
     background: fixed;
     background-color: #2b2b2b3d;
     border-radius: 10px;
 }
 
-.operatorButton:hover {
+.operatorButton:hover, #backspaceButton:hover {
     background-color: #4747473d;
 }
 
