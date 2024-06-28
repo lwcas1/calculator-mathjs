@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/13.0.0/math.js" integrity="sha512-YwFcgvV5CtE1kAnYDaIfoeydQnjRd/9YvYvi4MtRuFGAYVilHTD8qvvHrI/IJ7umguCooEUfctGo/9EKqdd1OA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./src/script.js" defer async></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <div class="box">
+            <section id="textfield">
+                <input type="text" name="textInput" id="textInput">
+            </section>
+            <section id="buttonfield">
+                <div id="buttons">
+                    <button type="button" class="numberButton" data-number="1">1</button>
+                    <button type="button" class="numberButton" data-number="2">2</button>
+                    <button type="button" class="numberButton" data-number="3">3</button>
+                    <button type="button" id="backspaceButton">⌫</button>
+
+                    <button type="button" class="numberButton" data-number="4">4</button>
+                    <button type="button" class="numberButton" data-number="5">5</button>
+                    <button type="button" class="numberButton" data-number="6">6</button>
+                    <button type="button" class="operatorButton" data-operator="*">x</button>
+
+                    <button type="button" class="numberButton" data-number="7">7</button>
+                    <button type="button" class="numberButton" data-number="8">8</button>
+                    <button type="button" class="numberButton" data-number="9">9</button>
+                    <button type="button" class="operatorButton" data-operator="/">÷</button>
+
+                    <button type="button" class="operatorButton" data-operator="+">+</button>
+                    <button type="button" class="numberButton" data-number="0">0</button>
+                    <button type="button" class="operatorButton" data-operator="-">-</button>
+                    <button type="button" class="resultButton" id="resultButton">=</button>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-family: "Poppins";
+}
+
+body {
+    background-image: url(./img/wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #131313;
+    height: 21rem;
+    width: 17rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 1px 10px 18px #131313;
+}
+
+.box #textfield {
+    height: 30%;
+    padding: 5px 0;
+    border-bottom: solid 1px #595959;
+}
+
+.box #textfield input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 2rem;
+    padding: 0 15px;
+    text-align: end;
+}
+
+.box #buttonfield {
+    height: 65%;
+}
+
+#buttons {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2px;
+}
+
+button {
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.numberButton:hover {
+    color: #b8b8b8;
+}
+
+.operatorButton {
+    background: fixed;
+    background-color: #2b2b2b3d;
+    border-radius: 10px;
+}
+
+.operatorButton:hover {
+    background-color: #4747473d;
+}
+
+.resultButton {
+    background: fixed;
+    background-color: #2193b0;
+    border-radius: 10px;
+}
+
+.resultButton:hover {
+    background-color: #1d7b92;
+}
